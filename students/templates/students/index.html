@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+</head>
+<body>
+{% if student %}
+    {% for key in student %}
+       {{ key.first_name }}
+    {% endfor %}
+{% endif %}
+
+</body>
+</html>
